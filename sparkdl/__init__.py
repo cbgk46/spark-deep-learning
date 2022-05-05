@@ -17,6 +17,7 @@
 # pylint: disable=invalid-name
 
 from sparkdl.horovod.runner_base import HorovodRunner
+from sparkdl.xgboost.xgboost import XgboostRegressor, XgboostClassifier
 
 __all__ = ['HorovodRunner', 'XgboostClassifier', 'XgboostClassifierModel',
            'XgboostRegressor', 'XgboostRegressorModel']
