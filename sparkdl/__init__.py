@@ -18,7 +18,8 @@
 
 from sparkdl.horovod.runner_base import HorovodRunner
 
-__all__ = ['HorovodRunner']
+__all__ = ['HorovodRunner', 'XgboostClassifier', 'XgboostClassifierModel',
+           'XgboostRegressor', 'XgboostRegressorModel']
 
 
 __version__ = '2.2.0-db1'
