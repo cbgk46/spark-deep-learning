@@ -19,7 +19,7 @@ setuptools.setup(
     name='sparkdl',
     version=sparkdl.__version__,
     packages=setuptools.find_packages(exclude=exclude_packages),
-    url="https://github.com/databricks/spark-deep-learning",
+    url="https://github.com/cbgk46/spark-deep-learning",
     author="Weichen Xu",
     author_email="weichen.xu@databricks.com",
     description="Deep Learning Pipelines for Apache Spark",
